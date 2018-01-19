@@ -7,6 +7,11 @@
 	<!-- JSPC servlet mappings start -->
 
     <servlet>
+        <servlet-name>org.apache.jsp.createLocation_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.createLocation_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
         <servlet-name>org.apache.jsp.equimentList_jsp</servlet-name>
         <servlet-class>org.apache.jsp.equimentList_jsp</servlet-class>
     </servlet>
@@ -62,6 +67,11 @@
     </servlet>
 
     <servlet>
+        <servlet-name>org.apache.jsp.polarTest_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.polarTest_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
         <servlet-name>org.apache.jsp.serviceTechForm_jsp</servlet-name>
         <servlet-class>org.apache.jsp.serviceTechForm_jsp</servlet-class>
     </servlet>
@@ -70,6 +80,11 @@
         <servlet-name>org.apache.jsp.serviceTechList_jsp</servlet-name>
         <servlet-class>org.apache.jsp.serviceTechList_jsp</servlet-class>
     </servlet>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.createLocation_jsp</servlet-name>
+        <url-pattern>/createLocation.jsp</url-pattern>
+    </servlet-mapping>
 
     <servlet-mapping>
         <servlet-name>org.apache.jsp.equimentList_jsp</servlet-name>
@@ -127,6 +142,11 @@
     </servlet-mapping>
 
     <servlet-mapping>
+        <servlet-name>org.apache.jsp.polarTest_jsp</servlet-name>
+        <url-pattern>/polarTest.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
         <servlet-name>org.apache.jsp.serviceTechForm_jsp</servlet-name>
         <url-pattern>/serviceTechForm.jsp</url-pattern>
     </servlet-mapping>
@@ -139,7 +159,7 @@
 <!-- JSPC servlet mappings end -->
 
 <welcome-file-list>
-		<welcome-file>home.jsp</welcome-file>
+		<welcome-file>plantList.jsp</welcome-file>
 	</welcome-file-list>
 	
 	<servlet>

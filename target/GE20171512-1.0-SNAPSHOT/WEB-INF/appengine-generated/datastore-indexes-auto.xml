@@ -1,0 +1,10 @@
+<!-- Indices written at Thu, 18 Jan 2018 17:26:22 CST -->
+
+<datastore-indexes>
+
+    <!-- Used 1 time in query history -->
+    <datastore-index kind="Plant" ancestor="true">
+        <property name="Location" direction="asc"/>
+    </datastore-index>
+
+</datastore-indexes>

@@ -1,0 +1,6 @@
+indexes:
+- kind: "Plant"
+  ancestor: yes
+  properties:
+  - name: "Location"
+    direction: asc
